@@ -43,7 +43,7 @@ body{
     letter-spacing: 0.03em;
 
     color: var(--main-txt-mode-light);
-    cursor: pointer;
+    
 }
 .logo-primary{
     color: var(--secondary-txt-mode-light);
@@ -57,7 +57,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--main-txt-mode-light);
 
-    cursor: pointer;
+    
 }
 .contact-link{
     color: var(--primary-txt-mode-light);
@@ -97,6 +97,8 @@ body{
     background-color: var(--bg-button);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -109,7 +111,8 @@ body{
 .about{
     background-color: #E5E5E5;
 }
-.features-title{
+.features-title,
+.main-title{
     visibility: hidden;
 }
 .features-subtitle{
@@ -154,7 +157,6 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
     letter-spacing: 0.03em;
 
     color: var(--main-txt-mode-light);
@@ -181,7 +183,7 @@ body{
 .mail,
 .phone{
  color: var(--primary-txt-mode-dark);
- cursor: pointer;
+ 
 }
 
 .map:hover,
@@ -193,3 +195,41 @@ body{
     color: var(--secondary-txt-mode-dark);
 }
 
+.pagination-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-txt-mode-light);
+background-color: #F5F4FA;
+cursor: pointer;
+}
+
+.pagination-btn:hover,
+.pagination-btn:focus{
+    color: var(--main-txt-mode-dark);
+    background-color: var(--bg-button);
+}
+
+.project-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-txt-mode-light);
+}
+
+.project-category{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-txt-mode-light);
+}
+
+.project-category:hover,
+.project-category:focus{
+    color: var(--primary-txt-mode-light);
+}
