@@ -6,7 +6,6 @@
 
 
 --bg-header:#FFFFFF;
---primary-bg-mode-light: #E5E5E5;
 --main-txt-mode-light: #212121;
 --primary-txt-mode-light: #757575;
 --secondary-txt-mode-light: #2196F3;
@@ -55,9 +54,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--main-txt-mode-light);
-
-    
+    color: var(--main-txt-mode-light);    
 }
 .contact-link{
     color: var(--primary-txt-mode-light);
@@ -85,7 +82,7 @@ body{
 }
 
 .hero-btn{
-    font-family: inherit
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -107,9 +104,6 @@ body{
     background-color: var(--bg-button);
 }   
 
-.features,
-.about{
-    background-color: #E5E5E5;
 }
 .features-title,
 .main-title{
@@ -128,7 +122,6 @@ body{
 .map,
 .mail,
 .phone{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     /* or 171% */
@@ -162,7 +155,6 @@ body{
     color: var(--main-txt-mode-light);
 }
 .team-info{
-    font-weight: 400;
     color: var(--primary-txt-mode-light)
 }
 .address{
@@ -222,7 +214,6 @@ cursor: pointer;
 }
 
 .project-category{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
